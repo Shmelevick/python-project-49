@@ -6,10 +6,12 @@
 
 Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/sOCkYp6t3giKi2DkTCcgzuYUf) below:
 
-![asciinema demo](https://asciinema.org/a/sOCkYp6t3giKi2DkTCcgzuYUf)
+[![asciinema demo](https://asciinema.org/a/sOCkYp6t3giKi2DkTCcgzuYUf.svg)](https://asciinema.org/a/sOCkYp6t3giKi2DkTCcgzuYUf)
+
 
 ## 📽️ Sample of "Calculator" game:
 
 Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ) below:
 
-![asciinema demo](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ)
+[![asciinema demo](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ.svg)]
+(https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ)
