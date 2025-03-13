@@ -4,6 +4,7 @@ from time import sleep
 from prompt import string
 
 from brain_games.cli import welcome_user
+from brain_games.wrong_answer_output import wrong_answer_output
 
 
 def is_even_game(name):
@@ -12,7 +13,7 @@ def is_even_game(name):
     sleep(2)
     
     correct_guesses = 0
-    
+
     while correct_guesses < 3:
 
         number = randint(1, 10000)
@@ -20,11 +21,8 @@ def is_even_game(name):
         correct_answer = 'no' if number % 2 else 'yes'
 
         if answer != correct_answer:
-            print(
-                f"'{answer}' is wrong answer ;(. "
-                f"Correct answer was '{correct_answer}'.\n"
-                f"Let's try again, {name}!\n\n\n"
-            )
+            wrong_answer_output(answer, correct_answer, name)
+
             sleep(2)
 
             correct_guesses = 0
