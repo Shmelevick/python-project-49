@@ -14,3 +14,10 @@ Check out the demo of the package in action by clicking on the [asciinema record
 Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ) below:
 
 [![asciinema demo](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ.svg)](https://asciinema.org/a/pGluyplksGL0l4Qu8sPeBipvZ)
+
+
+## 📽️ Sample of "Greatest Common Divisor" game:
+
+Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/Tfiw315glBdEbrj9iNbwzEfKc) below:
+
+[![asciinema demo](https://asciinema.org/a/Tfiw315glBdEbrj9iNbwzEfKc.svg)](https://asciinema.org/a/Tfiw315glBdEbrj9iNbwzEfKc)
