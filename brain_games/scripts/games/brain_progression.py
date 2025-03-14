@@ -1,5 +1,4 @@
 from random import randint
-from time import sleep
 
 from prompt import string
 
@@ -8,9 +7,7 @@ from brain_games.wrong_answer_output import wrong_answer_output
 
 
 def progression_game(name):
-    sleep(1)
     print('What number is missing in the progression?\n')
-    sleep(1)
 
     correct_guesses = 0
 
@@ -32,7 +29,6 @@ def progression_game(name):
             return
 
         print('Correct!\n')
-        sleep(1)
 
         correct_guesses += 1
 

@@ -1,5 +1,4 @@
 from random import randint
-from time import sleep
 
 from prompt import string
 
@@ -16,9 +15,7 @@ def get_gcd(a, b):
 
 
 def gcd_game(name):
-    sleep(1)
     print('Find the greatest common divisor of given numbers.\n')
-    sleep(1)
 
     correct_guesses = 0
 
@@ -40,7 +37,6 @@ def gcd_game(name):
             return
 
         print('Correct!\n')
-        sleep(1)
 
         correct_guesses += 1
 
