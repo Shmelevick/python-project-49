@@ -4,7 +4,7 @@ def wrong_answer_output(answer, correct_answer, name):
         print(
             f"'{answer}' is wrong answer ;(. "
             f"Correct answer was '{correct_answer}'.\n"
-            f"Let's try again, {name}!\n\n\n"
+            f"Let's try again, {name}!\n"
         )
 
     return

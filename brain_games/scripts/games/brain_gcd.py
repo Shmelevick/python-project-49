@@ -37,9 +37,7 @@ def gcd_game(name):
         if answer != correct_answer:
             wrong_answer_output(answer, correct_answer, name)
 
-            sleep(2)
-
-            continue
+            return
 
         print('Correct!\n')
         sleep(1)

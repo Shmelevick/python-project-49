@@ -23,11 +23,7 @@ def is_even_game(name):
         if answer != correct_answer:
             wrong_answer_output(answer, correct_answer, name)
 
-            sleep(2)
-
-            correct_guesses = 0
-
-            continue
+            return
 
         print('Correct!\n')
         sleep(1)
