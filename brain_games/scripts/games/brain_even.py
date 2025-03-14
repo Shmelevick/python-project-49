@@ -9,7 +9,7 @@ from brain_games.wrong_answer_output import wrong_answer_output
 
 def is_even_game(name):
     sleep(1)
-    print('Answer "yes" if the number is even, otherwise answer "no".\n')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     sleep(1)
     
     correct_guesses = 0
@@ -25,12 +25,12 @@ def is_even_game(name):
 
             return
 
-        print('Correct!\n')
+        print('Correct!')
         sleep(1)
 
         correct_guesses += 1
 
-    print(f'Congratulations, {name}!\n')
+    print(f'Congratulations, {name}!')
 
     return
 
