@@ -1,6 +1,5 @@
 import operator
 from random import choice, randint
-from time import sleep
 
 from prompt import string
 
@@ -16,9 +15,7 @@ def calc_game(name):
     "*": operator.mul,
     }
 
-    sleep(1)
     print('What is the result of the expression?')
-    sleep(1)
 
     correct_guesses = 0
 
@@ -33,12 +30,9 @@ def calc_game(name):
         if answer != correct_answer:
             wrong_answer_output(answer, correct_answer, name)
 
-            sleep(2)
-
-            continue
+            return
 
         print('Correct!\n')
-        sleep(1)
 
         correct_guesses += 1
 

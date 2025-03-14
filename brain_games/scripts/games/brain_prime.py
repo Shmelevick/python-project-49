@@ -1,5 +1,4 @@
 from random import choice, randint
-from time import sleep
 
 from prompt import string
 
@@ -28,9 +27,7 @@ def prime_generator(num):
 
 
 def is_prime_game(name):
-    sleep(1)
     print('Answer "yes" if given number is prime. Otherwise answer "no".\n')
-    sleep(1)
 
     correct_guesses = 0
 
@@ -46,12 +43,9 @@ def is_prime_game(name):
         if answer != correct_answer:
             wrong_answer_output(answer, correct_answer, name)
 
-            sleep(2)
-
-            continue
+            return
 
         print('Correct!\n')
-        sleep(1)
 
         correct_guesses += 1
 
