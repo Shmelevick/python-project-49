@@ -1,5 +1,4 @@
 from random import randint
-from time import sleep
 
 from prompt import string
 
@@ -8,10 +7,8 @@ from brain_games.wrong_answer_output import wrong_answer_output
 
 
 def is_even_game(name):
-    sleep(1)
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    sleep(1)
-    
+
     correct_guesses = 0
 
     while correct_guesses < 3:
@@ -26,7 +23,6 @@ def is_even_game(name):
             return
 
         print('Correct!')
-        sleep(1)
 
         correct_guesses += 1
 
