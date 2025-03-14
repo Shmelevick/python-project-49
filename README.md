@@ -27,3 +27,10 @@ Check out the demo of the package in action by clicking on the [asciinema record
 Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/eYOo5vnlUmVbdfXXRxCwePsaR) below:
 
 [![asciinema demo](https://asciinema.org/a/eYOo5vnlUmVbdfXXRxCwePsaR.svg)](https://asciinema.org/a/eYOo5vnlUmVbdfXXRxCwePsaR)
+
+## 🤡 Sample of "Is prime" game:
+
+Check out the demo of the package in action by clicking on the [asciinema recording](https://asciinema.org/a/AONlfQj3dcpccW7wU6NuNM0lz) below:
+
+[![asciinema demo](https://asciinema.org/a/AONlfQj3dcpccW7wU6NuNM0lz.svg)](https://asciinema.org/a/AONlfQj3dcpccW7wU6NuNM0lz)
+
